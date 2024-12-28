@@ -38,16 +38,16 @@ en: &DEFAULT_EN
     list:
       - title: "WhatCulture"
         url: https://www.whatculture.com
-        logo: assets/img/clients/whatculture.png
+        logo: assets/img/clients/wc.jpg
       - title: "Barker and Stoneohouse"
         url: https://www.barkerandstonehouse.co.uk
-        logo: assets/img/clients/barkerandstonehouse.png
+        logo: assets/img/clients/bs.jpg
       - title: "CMO Group PLC"
         url: https://www.cmogroup.com
-        logo: assets/img/clients/cmo.png
+        logo: assets/img/clients/cmo.jpg
       - title: "Universal Textiles"
         url: https://www.universal-textiles.com
-        logo: assets/img/clients/universaltextiles.png
+        logo: assets/img/clients/ut.jpg
 
   about:
     title: "About Clint Veasey"
