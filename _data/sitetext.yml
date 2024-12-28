@@ -1,0 +1,87 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: MAGENTO 2 FREELANCER
+    text: Seamless eCommerce Solutions, Tailored to You.
+    button: Tell Me More
+    buttonlink: "#services"
+
+  services:
+    title: "Services"
+    text: "What I can offer You"
+    section: services
+    list:
+      - title: "Custom Magento 2 Development"
+        desc: "Build unique features that set your store apart."
+        icon: fab fa-magento
+      - title: "Performance Optimization"
+        desc: "Ensure fast loading times and seamless customer experiences."
+        icon:  fas fa-rocket
+      - title: "Troubleshooting & Support"
+        desc: "Fix critical issues and maintain your site's reliability."
+        icon: fas fa-search
+
+  clients:
+    section: clients
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "WhatCulture"
+        url: https://www.whatculture.com
+        logo: assets/img/clients/whatculture.png
+      - title: "Barker and Stoneohouse"
+        url: https://www.barkerandstonehouse.co.uk
+        logo: assets/img/clients/barkerandstonehouse.png
+      - title: "CMO Group PLC"
+        url: https://www.cmogroup.com
+        logo: assets/img/clients/cmo.png
+      - title: "Universal Textiles"
+        url: https://www.universal-textiles.com
+        logo: assets/img/clients/universaltextiles.png
+
+  about:
+    title: "About Clint Veasey"
+    subtitle: "A Decade of Development, Built on a Foundation of Discipline"
+    photo: assets/img/clint.png
+
+  contact:
+    title: "Contact Me"
+    text: "Use the form below or call 077 327 66 178"
+    section: contact
+    name: "Name*"
+    name-validation: "Please enter your name."
+    email: "Email*"
+    email-validation: "Please enter your email address."
+    phone: "Phone Number"
+    phone-validation: "Please enter your phone number."
+    message: "Message*"
+    message-validation: "Please enter a message."
+    subject: "Contact Form Submission"
+    submit: "Send Message"
+
+  footer:
+    legal: "Privacy Policy"
+    social:
+      - url: https://linkedin.com
+        icon: "fab fa-linkedin-in"
+      - url: https://github.com/raviriley/agency-jekyll-theme
+        icon: "fab fa-github"
+
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
