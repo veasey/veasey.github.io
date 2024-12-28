@@ -72,9 +72,9 @@ en: &DEFAULT_EN
   footer:
     legal: "Privacy Policy"
     social:
-      - url: https://linkedin.com
+      - url: https://www.linkedin.com/in/clint-veasey/
         icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
+      - url: https://github.com/veasey
         icon: "fab fa-github"
 
 en-US:
