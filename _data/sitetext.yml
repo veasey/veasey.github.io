@@ -11,7 +11,7 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: MAGENTO 2 FREELANCER
+    title: PHP Full Stack Freelancer
     text: Seamless eCommerce Solutions, Tailored to You.
     button: Tell Me More
     buttonlink: "#services"
@@ -21,16 +21,24 @@ en: &DEFAULT_EN
     text: "What I can offer You"
     section: services
     list:
-      - title: "Custom Magento 2 Development"
+      - title: "eCommerce Development"
         desc: "Build unique features that set your store apart."
         icon: fab fa-magento
+      - title: "Legacy Support"
+        desc: "Maintain and upgrade legacy code bases."
+        icon: fas fa-book-dead
+      - title: "CMS Customization and Development"
+        desc: "Develop bespoke CMS features to improve content management and user experience."
+        icon: fas fa-users
+      - title: "API Development and Integration"
+        desc: "Integrate third-party APIs like payment gateways, social media, or analytics tools."
+        icon: fas fa-project-diagram
       - title: "Performance Optimization"
         desc: "Ensure fast loading times and seamless customer experiences."
         icon:  fas fa-rocket
       - title: "Troubleshooting & Support"
         desc: "Fix critical issues and maintain your site's reliability."
         icon: fas fa-search
-
   clients:
     section: clients
     max-height: 100px
